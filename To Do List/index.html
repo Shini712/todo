@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="image/favicon.png">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col1">
+                <h1>To Do App</h1>
+                <p>What's up for Today?</p>
+                <div id="progressBar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="col">
+                <p id="number">0 / 0</p>
+            </div>
+        </div>
+
+        <form action="">
+            <input type="text" id="taskInput" placeholder="your task....">
+            <select id="prioritySelect">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <input type="date" id="dueDateInput">
+            <button id="ntask" type="submit">+</button>
+        </form>
+
+        <ul class="list" id="task-list">
+
+        </ul>
+    </div>
+   <script src="index.js"></script> 
+</body>
+</html>
